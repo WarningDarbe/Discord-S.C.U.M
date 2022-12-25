@@ -30,8 +30,8 @@ class StartParse(object): #really hope this doesn't take too long to run...
 				if isinstance(guild["roles"], list):
 					ready_data["guilds"][guild["id"]]["roles"] = {m["id"]:m for m in guild["roles"]}
 				#take care of channels
-				if isinstance(guild["channels"], list):
-					ready_data["guilds"][guild["id"]]["channels"] = {n["id"]:dict(n,**{"type":Types.channelTypes[n["type"]]}) for n in guild["channels"]}
+				#if isinstance(guild["channels"], list):
+					#ready_data["guilds"][guild["id"]]["channels"] = {n["id"]:dict(n,**{"type":Types.channelTypes[n["type"]]}) for n in guild["channels"]}
 			#take care of personal role/nick
 			ready_data["guilds"][guild["id"]]["my_data"] = next((i for i in personal_role if i["user_id"]==response["d"]["user"]["id"]), {}) #personal_role
 			#take care of members
