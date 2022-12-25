@@ -48,11 +48,11 @@ Happy coding,
 ## Installation  
 To install the library normally, run:
 ```
-python -m pip install --user --upgrade git+https://github.com/Merubokkusu/Discord-S.C.U.M.git#egg=discum
+python -m pip install --user --upgrade git+https://github.com/WarningDarbe/Discord-S.C.U.M
 ```
 Otherwise, to also use remote authentication functions (login using a phone & qr code), run:
 ```
-python -m pip install --user --upgrade -e git+https://github.com/Merubokkusu/Discord-S.C.U.M.git#egg=discum[ra]
+python -m pip install --upgrade -e git+https://github.com/WarningDarbe/Discord-S.C.U.M
 ```
 
 #### Prerequisites (installed automatically using above methods)
