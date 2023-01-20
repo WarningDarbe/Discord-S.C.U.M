@@ -52,7 +52,7 @@ python -m pip install --user --upgrade git+https://github.com/WarningDarbe/Disco
 ```
 Otherwise, to also use remote authentication functions (login using a phone & qr code), run:
 ```
-python -m pip install --upgrade -e git+https://github.com/WarningDarbe/Discord-S.C.U.M
+python -m pip install --upgrade -e git+https://github.com/WarningDarbe/Discord-S.C.U.M#egg=discum[ra]
 ```
 
 #### Prerequisites (installed automatically using above methods)
